@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+
+@font-face {
+  font-family: "Museo300";
+  src: url("./fonts/Museo300-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Museo700";
+  src: url("./fonts/Museo700-Regular.otf") format("opentype");
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Museo", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.42857;
+  background-color: rgb(243, 239, 228);
+  font-family: museo-normal, sans-serif;
+  color: rgb(123, 46, 27);
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1170px;
+}
+
+.navbar-header {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.navbar-toggle {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0px;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  appearance: button;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  transition: all 0.2s ease-in-out 0s;
+  padding: 9px 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  display: none;
+}
+
+/* Add additional styles if needed */
+
+.container-fluid {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+}
+
+.navbar.nav_background.affix {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid transparent;
+  min-height: 50px;
+  top: 0;
+  width: 100%;
+  margin-bottom: -20px;
+  background: rgb(243, 239, 228);
+  position: fixed;
+  z-index: 3;
+  border-radius: 0;
+}
+
+.navbar-toggle.collapsed {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  appearance: button;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  transition: all 0.2s ease-in-out 0s;
+  padding: 9px 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  display: none;
+}
+
+.sr-only {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: -1px;
+  overflow: hidden;
+  border: 0px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0px, 0px, 0px, 0px);
+}
+
+.icon-bar {
+  box-sizing: border-box;
+  border-radius: 1px;
+  display: block;
+  width: 22px;
+  height: 4px;
+  background: rgb(242, 101, 34);
+}
+
+.navbar-brand {
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(51, 122, 183);
+  transition: all 0.2s ease-in-out 0s;
+  padding: 15px;
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+  margin-left: -15px;
+}
+
+.imglogo {
+  box-sizing: border-box;
+  border: 0px;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out 0s;
+  display: block;
+  position: relative;
+  height: 140px;
+  float: left;
+  z-index: 8;
+  left: 20%;
+}
+
+.nav.navbar-nav.main-navigation-header {
+  box-sizing: border-box;
+  list-style: none;
+  margin: -0.5px -15px;
+  margintop: -0.5px;
+  marginbottom: -0.5px;
+  background: rgb(243, 239, 228);
+  font-family: "museo-normal", sans-serif; /* Assuming 'museo-normal' is a valid font family */
+  font-weight: bold;
+  height: 100px;
+  paddingtop: 30px;
+  paddingleft: 75px;
+  cssfloat: left;
+  display: inline-block;
+}
+
+#bs-example-navbar-collapse-1 {
+  box-sizing: border-box;
+  paddingright: 15px;
+  paddingleft: 15px;
+  bordertop: 0px;
+  width: auto;
+  boxshadow: none;
+  paddingbottom: 0px;
+  marginright: 0px;
+  marginleft: 0px;
+  zindex: 8;
+  overflow: visible;
+  display: block;
+  height: auto;
+  overflowx: visible;
+}
+
+.nav.navbar-nav.main-navigation-header {
+  box-sizing: border-box;
+  list-style: none;
+  margin: -0.5px -15px;
+  margintop: -0.5px;
+  marginbottom: -0.5px;
+  background: rgb(243, 239, 228);
+  font-family: "museo-normal", sans-serif; /* Assuming 'museo-normal' is a valid font family */
+  font-weight: bold;
+  height: 100px;
+  paddingtop: 30px;
+  paddingleft: 75px;
+  cssfloat: left;
+  display: inline-block;
+}
+
+.containersp {
+  box-sizing: border-box;
+  display: block;
+  height: 170px;
+  background-color: rgb(255, 255, 255);
+  font-family: "museo-normal", sans-serif; /* Assuming 'museo-normal' is a valid font family */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  padding-top: 20px;
+}
+
+h4 {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Museo300", sans-serif;
+}
+
+.social-media {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.socmed {
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(51, 122, 183);
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.imgsocmed {
+  box-sizing: border-box;
+  border: 0;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navtext {
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative;
+  display: block;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out 0s;
+  color: rgb(242, 101, 34);
+  font-family: "Museo700", sans-serif; /* Apply the imported font family */
+  font-weight: bolder;
+}
+
+.dropdown-toggle {
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative;
+  display: block;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out 0s;
+  color: rgb(242, 101, 34);
+  font-family: "Museo700", sans-serif;
+  font-weight: bold;
+}
+
+.home-ads-button {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0px;
+  overflow: visible;
+  text-transform: none;
+  appearance: button;
+  cursor: pointer;
+  line-height: inherit;
+  transition: all 0.2s ease-in-out 0s;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: rgb(242, 101, 34);
+  font-family: "Museo300", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+a {
+  font-family: "Museo300", sans-serif;
+}
+
+.imgpancake {
+  box-sizing: border-box;
+  border: 0px;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out 0s;
+  display: block;
+  position: relative;
+  height: 140px;
+  float: left;
+  z-index: 8;
+  left: 20%;
+}
